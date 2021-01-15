@@ -1,0 +1,5 @@
+val=float(input("Enter an ounce value:"))
+pound=eval('val/16')
+kilogram=float(pound*0.45)
+print("Pound:",pound)
+print("Kilogram:",kilogram)
